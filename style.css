@@ -225,3 +225,53 @@
 }
 
 /* card section end */
+
+/* solution section start */
+#solution {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 120px auto;
+}
+
+/* #solution .image img{
+    width: 600px;
+    height: 600px;
+} */
+
+#solution .content h4 {
+    color: #30B868;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+#solution .content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #001931;
+    margin: 20px 0;
+}
+
+#solution .content p {
+    color: #627382;
+    line-height: 25px;
+}
+
+#solution .content ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+#solution .content li {
+    display: flex;
+    gap: 6px;
+}
+
+/* solution section end */
