@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 .container {
     width: 1360px;
     margin: 0 auto;
@@ -52,6 +53,7 @@
     border-radius: 4px;
     color: #ffffff;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -61,3 +63,83 @@
 }
 
 /* navbar section end */
+
+/* hero section start */
+#hero {
+    background-image: url(./assets/hero-bg.png);
+    text-align: center;
+    padding: 70px 120px 134px 120px;
+}
+
+#hero .btn2 {
+    width: 229px;
+    height: 35px;
+    gap: 6px;
+    padding: 8px 12px;
+    color: #30B868;
+    background-color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 1000px;
+}
+
+#hero h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 84px;
+    padding: 16px 0;
+    text-transform: capitalize;
+}
+
+#hero h1 span {
+    color: #30B868;
+}
+
+#hero p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.btn-hero {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.hero-btn {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #30B868;
+    border: 2px solid #30B868;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* .hero-btn:hover{
+    background-color: #ffffff;
+    color: #30B868;
+    border: 2px solid #30B868;
+} */
+.hero-btn2 {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* hero section end */
