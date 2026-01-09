@@ -69,6 +69,8 @@
 #hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.275)),
         url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
     text-align: center;
     padding: 70px 120px 134px 120px;
 }
