@@ -67,8 +67,8 @@
 
 /* hero section start */
 #hero {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.275)),
-        url(./assets/hero-bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .200), rgba(0, 0, 0, .200)),
+        url("./assets/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;    
     text-align: center;
